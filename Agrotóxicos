@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrotóxicos: Impactos e Prevenção</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f2f8f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #388e3c;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #2e7d32;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        section h2 {
+            color: #4caf50;
+            margin-bottom: 20px;
+            font-size: 2em;
+            border-bottom: 2px solid #4caf50;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        section p {
+            margin-bottom: 15px;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            flex: 1 1 calc(33% - 20px);
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 900px) {
+            .cards {
+                flex-direction: column;
+            }
+
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agrotóxicos: Impactos e Prevenção</h1>
+        <p>Entenda os efeitos dos agrotóxicos e como reduzir riscos à saúde e ao meio ambiente.</p>
+    </header>
+
+    <nav>
+        <a href="#definicao">O que são</a>
+        <a href="#impactos">Impactos</a>
+        <a href="#prevencao">Prevenção</a>
+    </nav>
+
+    <div class="container">
+        <section id="definicao">
+            <h2>O que são Agrotóxicos?</h2>
+            <p>Agrotóxicos são substâncias químicas usadas na agricultura para controlar pragas, doenças e plantas invasoras. Embora aumentem a produtividade, seu uso inadequado pode causar sérios impactos à saúde humana e ao meio ambiente.</p>
+        </section>
+
+        <section id="impactos">
+            <h2>Impactos</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Saúde Humana">
+                    <h3>Saúde Humana</h3>
+                    <p>Exposição a agrotóxicos pode causar intoxicações agudas, problemas respiratórios e até doenças crônicas como câncer.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Meio Ambiente">
+                    <h3>Meio Ambiente</h3>
+                    <p>Contaminação do solo, água e biodiversidade. Animais e plantas sofrem desequilíbrios nos ecossistemas.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Economia">
+                    <h3>Economia</h3>
+                    <p>Embora aumentem a produção agrícola, custos com saúde e limpeza ambiental podem superar os benefícios.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="prevencao">
+            <h2>Prevenção e Alternativas</h2>
+            <p>O uso responsável de agrotóxicos, técnicas de agricultura orgânica e controle biológico podem reduzir impactos negativos.</p>
+            <ul>
+                <li>Seguir rigorosamente as instruções de uso e doses.</li>
+                <li>Usar equipamentos de proteção individual (EPIs).</li>
+                <li>Adotar práticas agrícolas sustentáveis.</li>
+                <li>Investir em pesquisas sobre alternativas naturais.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2026 Informação sobre Agrotóxicos. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
